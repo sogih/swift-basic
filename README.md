@@ -1,6 +1,6 @@
-# 🚀 swift-basic
+## 🚀 swift-basic
 도서 '꼼꼼한 재은 씨의 스위프트: 기본편'을 공부하면서 정리한 내용을 목차에 따라 나열합니다.
----
+
 
 CHAPTER 01 첫 번째 iOS 앱 만들기\
 1.1 첫 번째 앱, Hello World!\

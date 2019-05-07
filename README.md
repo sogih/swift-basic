@@ -28,9 +28,9 @@ CHAPTER 02 iOS 앱의 구조와 코코아 터치 프레임워크 \
 2.3.3 뷰 컨트롤러의 상태 변화와 생명 주기](https://velog.io/@sogih/2019-05-07-1105-작성됨-bajvd675wm) \
 \
 CHAPTER 03 화면상의 객체를 제어하는 방법 \
-3.1 @IBOutlet과 @IBAction \
+[3.1 @IBOutlet과 @IBAction \
 3.1.1 @IBOutlet - 객체의 참조 \
-3.1.2 @IBAction - 객체의 이벤트 제어 \
+3.1.2 @IBAction - 객체의 이벤트 제어](https://velog.io/@sogih/IBOutlet과-IBAction-1djvdhxlhc) \
 3.2 인터페이스 빌더 객체와 클래스를 연결하는 방법 \
 3.2.1 프로젝트 생성 및 실습 준비 \
 3.2.2 스토리보드의 객체를 클래스와 연결하기 \

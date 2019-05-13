@@ -15,6 +15,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func moveByNavi(_ sender: Any) {
+        
+        guard let uvc = self.storyboard?.instantiateViewController(withIdentifier: "SecondVC") else {
+            return
+        }
+        
+        self.navigationController?.pushViewController(uvc, animated: true)
+        
+    }
+    
 }
 

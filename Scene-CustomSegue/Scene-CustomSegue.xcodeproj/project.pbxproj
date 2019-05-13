@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BFB7029422890D1400CEFEC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB7029322890D1400CEFEC3 /* AppDelegate.swift */; };
-		BFB7029622890D1400CEFEC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB7029522890D1400CEFEC3 /* ViewController.swift */; };
-		BFB7029922890D1400CEFEC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB7029722890D1400CEFEC3 /* Main.storyboard */; };
-		BFB7029B22890D1400CEFEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB7029A22890D1400CEFEC3 /* Assets.xcassets */; };
-		BFB7029E22890D1400CEFEC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB7029C22890D1400CEFEC3 /* LaunchScreen.storyboard */; };
-		BFB702A62289183A00CEFEC3 /* Scene-ManualSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB702A52289183A00CEFEC3 /* Scene-ManualSegue.swift */; };
+		BFB7030E2289258C00CEFEC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB7030D2289258C00CEFEC3 /* AppDelegate.swift */; };
+		BFB703102289258C00CEFEC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB7030F2289258C00CEFEC3 /* ViewController.swift */; };
+		BFB703132289258C00CEFEC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB703112289258C00CEFEC3 /* Main.storyboard */; };
+		BFB703152289258D00CEFEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB703142289258D00CEFEC3 /* Assets.xcassets */; };
+		BFB703182289258D00CEFEC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB703162289258D00CEFEC3 /* LaunchScreen.storyboard */; };
+		BFB70320228925B500CEFEC3 /* NewSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB7031F228925B500CEFEC3 /* NewSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BFB7029022890D1400CEFEC3 /* Scene-ActionSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scene-ActionSegue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFB7029322890D1400CEFEC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFB7029522890D1400CEFEC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BFB7029822890D1400CEFEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BFB7029A22890D1400CEFEC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BFB7029D22890D1400CEFEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BFB7029F22890D1400CEFEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFB702A52289183A00CEFEC3 /* Scene-ManualSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Scene-ManualSegue.swift"; sourceTree = "<group>"; };
+		BFB7030A2289258C00CEFEC3 /* Scene-CustomSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scene-CustomSegue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB7030D2289258C00CEFEC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFB7030F2289258C00CEFEC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFB703122289258C00CEFEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFB703142289258D00CEFEC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFB703172289258D00CEFEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFB703192289258D00CEFEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB7031F228925B500CEFEC3 /* NewSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BFB7028D22890D1400CEFEC3 /* Frameworks */ = {
+		BFB703072289258C00CEFEC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BFB7028722890D1400CEFEC3 = {
+		BFB703012289258C00CEFEC3 = {
 			isa = PBXGroup;
 			children = (
-				BFB7029222890D1400CEFEC3 /* Scene-ActionSegue */,
-				BFB7029122890D1400CEFEC3 /* Products */,
+				BFB7030C2289258C00CEFEC3 /* Scene-CustomSegue */,
+				BFB7030B2289258C00CEFEC3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BFB7029122890D1400CEFEC3 /* Products */ = {
+		BFB7030B2289258C00CEFEC3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFB7029022890D1400CEFEC3 /* Scene-ActionSegue.app */,
+				BFB7030A2289258C00CEFEC3 /* Scene-CustomSegue.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BFB7029222890D1400CEFEC3 /* Scene-ActionSegue */ = {
+		BFB7030C2289258C00CEFEC3 /* Scene-CustomSegue */ = {
 			isa = PBXGroup;
 			children = (
-				BFB7029322890D1400CEFEC3 /* AppDelegate.swift */,
-				BFB7029522890D1400CEFEC3 /* ViewController.swift */,
-				BFB7029722890D1400CEFEC3 /* Main.storyboard */,
-				BFB702A52289183A00CEFEC3 /* Scene-ManualSegue.swift */,
-				BFB7029A22890D1400CEFEC3 /* Assets.xcassets */,
-				BFB7029C22890D1400CEFEC3 /* LaunchScreen.storyboard */,
-				BFB7029F22890D1400CEFEC3 /* Info.plist */,
+				BFB7030D2289258C00CEFEC3 /* AppDelegate.swift */,
+				BFB7030F2289258C00CEFEC3 /* ViewController.swift */,
+				BFB7031F228925B500CEFEC3 /* NewSegue.swift */,
+				BFB703112289258C00CEFEC3 /* Main.storyboard */,
+				BFB703142289258D00CEFEC3 /* Assets.xcassets */,
+				BFB703162289258D00CEFEC3 /* LaunchScreen.storyboard */,
+				BFB703192289258D00CEFEC3 /* Info.plist */,
 			);
-			path = "Scene-ActionSegue";
+			path = "Scene-CustomSegue";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BFB7028F22890D1400CEFEC3 /* Scene-ActionSegue */ = {
+		BFB703092289258C00CEFEC3 /* Scene-CustomSegue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFB702A222890D1400CEFEC3 /* Build configuration list for PBXNativeTarget "Scene-ActionSegue" */;
+			buildConfigurationList = BFB7031C2289258D00CEFEC3 /* Build configuration list for PBXNativeTarget "Scene-CustomSegue" */;
 			buildPhases = (
-				BFB7028C22890D1400CEFEC3 /* Sources */,
-				BFB7028D22890D1400CEFEC3 /* Frameworks */,
-				BFB7028E22890D1400CEFEC3 /* Resources */,
+				BFB703062289258C00CEFEC3 /* Sources */,
+				BFB703072289258C00CEFEC3 /* Frameworks */,
+				BFB703082289258C00CEFEC3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Scene-ActionSegue";
-			productName = "Scene-ActionSegue";
-			productReference = BFB7029022890D1400CEFEC3 /* Scene-ActionSegue.app */;
+			name = "Scene-CustomSegue";
+			productName = "Scene-CustomSegue";
+			productReference = BFB7030A2289258C00CEFEC3 /* Scene-CustomSegue.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BFB7028822890D1400CEFEC3 /* Project object */ = {
+		BFB703022289258C00CEFEC3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = sogih;
 				TargetAttributes = {
-					BFB7028F22890D1400CEFEC3 = {
+					BFB703092289258C00CEFEC3 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = BFB7028B22890D1400CEFEC3 /* Build configuration list for PBXProject "Scene-ActionSegue" */;
+			buildConfigurationList = BFB703052289258C00CEFEC3 /* Build configuration list for PBXProject "Scene-CustomSegue" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = BFB7028722890D1400CEFEC3;
-			productRefGroup = BFB7029122890D1400CEFEC3 /* Products */;
+			mainGroup = BFB703012289258C00CEFEC3;
+			productRefGroup = BFB7030B2289258C00CEFEC3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFB7028F22890D1400CEFEC3 /* Scene-ActionSegue */,
+				BFB703092289258C00CEFEC3 /* Scene-CustomSegue */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BFB7028E22890D1400CEFEC3 /* Resources */ = {
+		BFB703082289258C00CEFEC3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB7029E22890D1400CEFEC3 /* LaunchScreen.storyboard in Resources */,
-				BFB7029B22890D1400CEFEC3 /* Assets.xcassets in Resources */,
-				BFB7029922890D1400CEFEC3 /* Main.storyboard in Resources */,
+				BFB703182289258D00CEFEC3 /* LaunchScreen.storyboard in Resources */,
+				BFB703152289258D00CEFEC3 /* Assets.xcassets in Resources */,
+				BFB703132289258C00CEFEC3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BFB7028C22890D1400CEFEC3 /* Sources */ = {
+		BFB703062289258C00CEFEC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB702A62289183A00CEFEC3 /* Scene-ManualSegue.swift in Sources */,
-				BFB7029622890D1400CEFEC3 /* ViewController.swift in Sources */,
-				BFB7029422890D1400CEFEC3 /* AppDelegate.swift in Sources */,
+				BFB70320228925B500CEFEC3 /* NewSegue.swift in Sources */,
+				BFB703102289258C00CEFEC3 /* ViewController.swift in Sources */,
+				BFB7030E2289258C00CEFEC3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BFB7029722890D1400CEFEC3 /* Main.storyboard */ = {
+		BFB703112289258C00CEFEC3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BFB7029822890D1400CEFEC3 /* Base */,
+				BFB703122289258C00CEFEC3 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BFB7029C22890D1400CEFEC3 /* LaunchScreen.storyboard */ = {
+		BFB703162289258D00CEFEC3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BFB7029D22890D1400CEFEC3 /* Base */,
+				BFB703172289258D00CEFEC3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BFB702A022890D1400CEFEC3 /* Debug */ = {
+		BFB7031A2289258D00CEFEC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		BFB702A122890D1400CEFEC3 /* Release */ = {
+		BFB7031B2289258D00CEFEC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,62 +282,62 @@
 			};
 			name = Release;
 		};
-		BFB702A322890D1400CEFEC3 /* Debug */ = {
+		BFB7031D2289258D00CEFEC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Scene-ActionSegue/Info.plist";
+				INFOPLIST_FILE = "Scene-CustomSegue/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sogih.Scene-ActionSegue";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sogih.Scene-CustomSegue";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BFB702A422890D1400CEFEC3 /* Release */ = {
+		BFB7031E2289258D00CEFEC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Scene-ActionSegue/Info.plist";
+				INFOPLIST_FILE = "Scene-CustomSegue/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sogih.Scene-ActionSegue";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sogih.Scene-CustomSegue";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BFB7028B22890D1400CEFEC3 /* Build configuration list for PBXProject "Scene-ActionSegue" */ = {
+		BFB703052289258C00CEFEC3 /* Build configuration list for PBXProject "Scene-CustomSegue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFB702A022890D1400CEFEC3 /* Debug */,
-				BFB702A122890D1400CEFEC3 /* Release */,
+				BFB7031A2289258D00CEFEC3 /* Debug */,
+				BFB7031B2289258D00CEFEC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFB702A222890D1400CEFEC3 /* Build configuration list for PBXNativeTarget "Scene-ActionSegue" */ = {
+		BFB7031C2289258D00CEFEC3 /* Build configuration list for PBXNativeTarget "Scene-CustomSegue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFB702A322890D1400CEFEC3 /* Debug */,
-				BFB702A422890D1400CEFEC3 /* Release */,
+				BFB7031D2289258D00CEFEC3 /* Debug */,
+				BFB7031E2289258D00CEFEC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BFB7028822890D1400CEFEC3 /* Project object */;
+	rootObject = BFB703022289258C00CEFEC3 /* Project object */;
 }

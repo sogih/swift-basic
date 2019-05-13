@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BFB7029422890D1400CEFEC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB7029322890D1400CEFEC3 /* AppDelegate.swift */; };
-		BFB7029622890D1400CEFEC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB7029522890D1400CEFEC3 /* ViewController.swift */; };
-		BFB7029922890D1400CEFEC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB7029722890D1400CEFEC3 /* Main.storyboard */; };
-		BFB7029B22890D1400CEFEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB7029A22890D1400CEFEC3 /* Assets.xcassets */; };
-		BFB7029E22890D1400CEFEC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB7029C22890D1400CEFEC3 /* LaunchScreen.storyboard */; };
-		BFB702A62289183A00CEFEC3 /* Scene-ManualSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB702A52289183A00CEFEC3 /* Scene-ManualSegue.swift */; };
+		BFB702D222891C6800CEFEC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB702D122891C6800CEFEC3 /* AppDelegate.swift */; };
+		BFB702D422891C6800CEFEC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB702D322891C6800CEFEC3 /* ViewController.swift */; };
+		BFB702D722891C6800CEFEC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB702D522891C6800CEFEC3 /* Main.storyboard */; };
+		BFB702D922891C6900CEFEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB702D822891C6900CEFEC3 /* Assets.xcassets */; };
+		BFB702DC22891C6900CEFEC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB702DA22891C6900CEFEC3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BFB7029022890D1400CEFEC3 /* Scene-ActionSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scene-ActionSegue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFB7029322890D1400CEFEC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFB7029522890D1400CEFEC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BFB7029822890D1400CEFEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BFB7029A22890D1400CEFEC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BFB7029D22890D1400CEFEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BFB7029F22890D1400CEFEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFB702A52289183A00CEFEC3 /* Scene-ManualSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Scene-ManualSegue.swift"; sourceTree = "<group>"; };
+		BFB702CE22891C6800CEFEC3 /* Scene-UnwindSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scene-UnwindSegue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB702D122891C6800CEFEC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFB702D322891C6800CEFEC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFB702D622891C6800CEFEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFB702D822891C6900CEFEC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFB702DB22891C6900CEFEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFB702DD22891C6900CEFEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BFB7028D22890D1400CEFEC3 /* Frameworks */ = {
+		BFB702CB22891C6800CEFEC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BFB7028722890D1400CEFEC3 = {
+		BFB702C522891C6800CEFEC3 = {
 			isa = PBXGroup;
 			children = (
-				BFB7029222890D1400CEFEC3 /* Scene-ActionSegue */,
-				BFB7029122890D1400CEFEC3 /* Products */,
+				BFB702D022891C6800CEFEC3 /* Scene-UnwindSegue */,
+				BFB702CF22891C6800CEFEC3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BFB7029122890D1400CEFEC3 /* Products */ = {
+		BFB702CF22891C6800CEFEC3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFB7029022890D1400CEFEC3 /* Scene-ActionSegue.app */,
+				BFB702CE22891C6800CEFEC3 /* Scene-UnwindSegue.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BFB7029222890D1400CEFEC3 /* Scene-ActionSegue */ = {
+		BFB702D022891C6800CEFEC3 /* Scene-UnwindSegue */ = {
 			isa = PBXGroup;
 			children = (
-				BFB7029322890D1400CEFEC3 /* AppDelegate.swift */,
-				BFB7029522890D1400CEFEC3 /* ViewController.swift */,
-				BFB7029722890D1400CEFEC3 /* Main.storyboard */,
-				BFB702A52289183A00CEFEC3 /* Scene-ManualSegue.swift */,
-				BFB7029A22890D1400CEFEC3 /* Assets.xcassets */,
-				BFB7029C22890D1400CEFEC3 /* LaunchScreen.storyboard */,
-				BFB7029F22890D1400CEFEC3 /* Info.plist */,
+				BFB702D122891C6800CEFEC3 /* AppDelegate.swift */,
+				BFB702D322891C6800CEFEC3 /* ViewController.swift */,
+				BFB702D522891C6800CEFEC3 /* Main.storyboard */,
+				BFB702D822891C6900CEFEC3 /* Assets.xcassets */,
+				BFB702DA22891C6900CEFEC3 /* LaunchScreen.storyboard */,
+				BFB702DD22891C6900CEFEC3 /* Info.plist */,
 			);
-			path = "Scene-ActionSegue";
+			path = "Scene-UnwindSegue";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BFB7028F22890D1400CEFEC3 /* Scene-ActionSegue */ = {
+		BFB702CD22891C6800CEFEC3 /* Scene-UnwindSegue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFB702A222890D1400CEFEC3 /* Build configuration list for PBXNativeTarget "Scene-ActionSegue" */;
+			buildConfigurationList = BFB702E022891C6900CEFEC3 /* Build configuration list for PBXNativeTarget "Scene-UnwindSegue" */;
 			buildPhases = (
-				BFB7028C22890D1400CEFEC3 /* Sources */,
-				BFB7028D22890D1400CEFEC3 /* Frameworks */,
-				BFB7028E22890D1400CEFEC3 /* Resources */,
+				BFB702CA22891C6800CEFEC3 /* Sources */,
+				BFB702CB22891C6800CEFEC3 /* Frameworks */,
+				BFB702CC22891C6800CEFEC3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Scene-ActionSegue";
-			productName = "Scene-ActionSegue";
-			productReference = BFB7029022890D1400CEFEC3 /* Scene-ActionSegue.app */;
+			name = "Scene-UnwindSegue";
+			productName = "Scene-UnwindSegue";
+			productReference = BFB702CE22891C6800CEFEC3 /* Scene-UnwindSegue.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BFB7028822890D1400CEFEC3 /* Project object */ = {
+		BFB702C622891C6800CEFEC3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = sogih;
 				TargetAttributes = {
-					BFB7028F22890D1400CEFEC3 = {
+					BFB702CD22891C6800CEFEC3 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = BFB7028B22890D1400CEFEC3 /* Build configuration list for PBXProject "Scene-ActionSegue" */;
+			buildConfigurationList = BFB702C922891C6800CEFEC3 /* Build configuration list for PBXProject "Scene-UnwindSegue" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = BFB7028722890D1400CEFEC3;
-			productRefGroup = BFB7029122890D1400CEFEC3 /* Products */;
+			mainGroup = BFB702C522891C6800CEFEC3;
+			productRefGroup = BFB702CF22891C6800CEFEC3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFB7028F22890D1400CEFEC3 /* Scene-ActionSegue */,
+				BFB702CD22891C6800CEFEC3 /* Scene-UnwindSegue */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BFB7028E22890D1400CEFEC3 /* Resources */ = {
+		BFB702CC22891C6800CEFEC3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB7029E22890D1400CEFEC3 /* LaunchScreen.storyboard in Resources */,
-				BFB7029B22890D1400CEFEC3 /* Assets.xcassets in Resources */,
-				BFB7029922890D1400CEFEC3 /* Main.storyboard in Resources */,
+				BFB702DC22891C6900CEFEC3 /* LaunchScreen.storyboard in Resources */,
+				BFB702D922891C6900CEFEC3 /* Assets.xcassets in Resources */,
+				BFB702D722891C6800CEFEC3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BFB7028C22890D1400CEFEC3 /* Sources */ = {
+		BFB702CA22891C6800CEFEC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB702A62289183A00CEFEC3 /* Scene-ManualSegue.swift in Sources */,
-				BFB7029622890D1400CEFEC3 /* ViewController.swift in Sources */,
-				BFB7029422890D1400CEFEC3 /* AppDelegate.swift in Sources */,
+				BFB702D422891C6800CEFEC3 /* ViewController.swift in Sources */,
+				BFB702D222891C6800CEFEC3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BFB7029722890D1400CEFEC3 /* Main.storyboard */ = {
+		BFB702D522891C6800CEFEC3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BFB7029822890D1400CEFEC3 /* Base */,
+				BFB702D622891C6800CEFEC3 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BFB7029C22890D1400CEFEC3 /* LaunchScreen.storyboard */ = {
+		BFB702DA22891C6900CEFEC3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BFB7029D22890D1400CEFEC3 /* Base */,
+				BFB702DB22891C6900CEFEC3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BFB702A022890D1400CEFEC3 /* Debug */ = {
+		BFB702DE22891C6900CEFEC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		BFB702A122890D1400CEFEC3 /* Release */ = {
+		BFB702DF22891C6900CEFEC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,62 +278,62 @@
 			};
 			name = Release;
 		};
-		BFB702A322890D1400CEFEC3 /* Debug */ = {
+		BFB702E122891C6900CEFEC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Scene-ActionSegue/Info.plist";
+				INFOPLIST_FILE = "Scene-UnwindSegue/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sogih.Scene-ActionSegue";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sogih.Scene-UnwindSegue";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BFB702A422890D1400CEFEC3 /* Release */ = {
+		BFB702E222891C6900CEFEC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Scene-ActionSegue/Info.plist";
+				INFOPLIST_FILE = "Scene-UnwindSegue/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sogih.Scene-ActionSegue";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sogih.Scene-UnwindSegue";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BFB7028B22890D1400CEFEC3 /* Build configuration list for PBXProject "Scene-ActionSegue" */ = {
+		BFB702C922891C6800CEFEC3 /* Build configuration list for PBXProject "Scene-UnwindSegue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFB702A022890D1400CEFEC3 /* Debug */,
-				BFB702A122890D1400CEFEC3 /* Release */,
+				BFB702DE22891C6900CEFEC3 /* Debug */,
+				BFB702DF22891C6900CEFEC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFB702A222890D1400CEFEC3 /* Build configuration list for PBXNativeTarget "Scene-ActionSegue" */ = {
+		BFB702E022891C6900CEFEC3 /* Build configuration list for PBXNativeTarget "Scene-UnwindSegue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFB702A322890D1400CEFEC3 /* Debug */,
-				BFB702A422890D1400CEFEC3 /* Release */,
+				BFB702E122891C6900CEFEC3 /* Debug */,
+				BFB702E222891C6900CEFEC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BFB7028822890D1400CEFEC3 /* Project object */;
+	rootObject = BFB702C622891C6800CEFEC3 /* Project object */;
 }

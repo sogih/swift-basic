@@ -68,10 +68,10 @@ CHAPTER 03 화면상의 객체를 제어하는 방법 \
 6.1 메시지 알림창 - UIAlertController \
 6.1.1 UIAlertController \
 6.1.2 입력 필드를 가지는 메시지 창](https://velog.io/@sogih/사용자에게-메시지를-전달하는-방법) \
-6.2 로컬 알림 \
+[6.2 로컬 알림 \
 6.2.1 UserNotification 프레임워크를 이용한 로컬 알림 \
 6.2.2 기본 실습 \
-6.2.3 받은 알림 처리하기\ 
+6.2.3 받은 알림 처리하기](https://velog.io/@sogih/2019-05-16-1505-작성됨-1njvq9goo1) \
 6.2.4 UILocalNotification 객체를 이용한 로컬 알림 \
 6.2.5 받은 알림 처리하기 \
 6.2.6 미리 알림 기능 구현 \

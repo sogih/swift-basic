@@ -67,7 +67,7 @@ CHAPTER 03 화면상의 객체를 제어하는 방법 \
 [CHAPTER 06 사용자에게 메시지를 전달하는 방법 \
 6.1 메시지 알림창 - UIAlertController \
 6.1.1 UIAlertController \
-6.1.2 입력 필드를 가지는 메시지 창](https://velog.io/@sogih/사용자에게-메시지를-전달하는-방법) \
+6.1.2 입력 필드를 가지는 메시지 창](https://velog.io/@sogih/사용자에게-메시지를-전달하는-방법)[실습 영상](https://www.youtube.com/watch?v=AiWhXssEfqw&t=12s) \
 [6.2 로컬 알림 \
 6.2.1 UserNotification 프레임워크를 이용한 로컬 알림 \
 6.2.2 기본 실습 \

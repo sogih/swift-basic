@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF5BFEB42293E4AD00345587 /* MoiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5BFEB32293E4AD00345587 /* MoiveCell.swift */; };
+		BF5BFEB92293E8DC00345587 /* secret.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF5BFEB62293E8DC00345587 /* secret.jpg */; };
+		BF5BFEBA2293E8DC00345587 /* darknight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF5BFEB72293E8DC00345587 /* darknight.jpg */; };
+		BF5BFEBB2293E8DC00345587 /* rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF5BFEB82293E8DC00345587 /* rain.jpg */; };
 		BFBA64B322926D9A00737252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA64B222926D9A00737252 /* AppDelegate.swift */; };
 		BFBA64B522926D9A00737252 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA64B422926D9A00737252 /* ViewController.swift */; };
 		BFBA64B822926D9A00737252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBA64B622926D9A00737252 /* Main.storyboard */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF5BFEB32293E4AD00345587 /* MoiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoiveCell.swift; sourceTree = "<group>"; };
+		BF5BFEB62293E8DC00345587 /* secret.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = secret.jpg; sourceTree = "<group>"; };
+		BF5BFEB72293E8DC00345587 /* darknight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darknight.jpg; sourceTree = "<group>"; };
+		BF5BFEB82293E8DC00345587 /* rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain.jpg; sourceTree = "<group>"; };
 		BFBA64AF22926D9900737252 /* MyMovieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMovieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBA64B222926D9A00737252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFBA64B422926D9A00737252 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,9 +47,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF5BFEB52293E81D00345587 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF5BFEB72293E8DC00345587 /* darknight.jpg */,
+				BF5BFEB82293E8DC00345587 /* rain.jpg */,
+				BF5BFEB62293E8DC00345587 /* secret.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		BFBA64A622926D9900737252 = {
 			isa = PBXGroup;
 			children = (
+				BF5BFEB52293E81D00345587 /* Resources */,
 				BFBA64B122926D9900737252 /* MyMovieChart */,
 				BFBA64B022926D9900737252 /* Products */,
 			);
@@ -61,6 +80,7 @@
 				BFBA64C62292734A00737252 /* MovieV0.swift */,
 				BFBA64B222926D9A00737252 /* AppDelegate.swift */,
 				BFBA64B422926D9A00737252 /* ViewController.swift */,
+				BF5BFEB32293E4AD00345587 /* MoiveCell.swift */,
 				BFBA64B622926D9A00737252 /* Main.storyboard */,
 				BFBA64C422926E4E00737252 /* ListViewController.swift */,
 				BFBA64B922926D9A00737252 /* Assets.xcassets */,
@@ -129,8 +149,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFBA64BD22926D9A00737252 /* LaunchScreen.storyboard in Resources */,
+				BF5BFEBB2293E8DC00345587 /* rain.jpg in Resources */,
 				BFBA64BA22926D9A00737252 /* Assets.xcassets in Resources */,
 				BFBA64B822926D9A00737252 /* Main.storyboard in Resources */,
+				BF5BFEB92293E8DC00345587 /* secret.jpg in Resources */,
+				BF5BFEBA2293E8DC00345587 /* darknight.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +168,7 @@
 				BFBA64C72292734A00737252 /* MovieV0.swift in Sources */,
 				BFBA64B322926D9A00737252 /* AppDelegate.swift in Sources */,
 				BFBA64C522926E4E00737252 /* ListViewController.swift in Sources */,
+				BF5BFEB42293E4AD00345587 /* MoiveCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

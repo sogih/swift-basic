@@ -14,6 +14,7 @@ class ListViewController: UITableViewController {
             mvo.title = title
             mvo.description = desc
             mvo.rating = rating
+            mvo.opendate = opendate
             
             datalist.append(mvo)
         }
@@ -22,4 +23,26 @@ class ListViewController: UITableViewController {
     
     override func viewDidLoad() {
     }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.list.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let row = self.list[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ListCell") as! MovieCell
+        
+        cell.title?.text = row.title
+        cell.desc?.text = row.description
+        cell.opendate?.text = row.opendate
+        cell.rating?.text = "\(row.rating!)"
+        
+        return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        NSLog("선택된 행은 \(indexPath.row) 번째 행입니다")
+    }
+    
 }

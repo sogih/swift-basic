@@ -7,37 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF5BFEB42293E4AD00345587 /* MoiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5BFEB32293E4AD00345587 /* MoiveCell.swift */; };
-		BF5BFEB92293E8DC00345587 /* secret.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF5BFEB62293E8DC00345587 /* secret.jpg */; };
-		BF5BFEBA2293E8DC00345587 /* darknight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF5BFEB72293E8DC00345587 /* darknight.jpg */; };
-		BF5BFEBB2293E8DC00345587 /* rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF5BFEB82293E8DC00345587 /* rain.jpg */; };
-		BFBA64B322926D9A00737252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA64B222926D9A00737252 /* AppDelegate.swift */; };
-		BFBA64B522926D9A00737252 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA64B422926D9A00737252 /* ViewController.swift */; };
-		BFBA64B822926D9A00737252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBA64B622926D9A00737252 /* Main.storyboard */; };
-		BFBA64BA22926D9A00737252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBA64B922926D9A00737252 /* Assets.xcassets */; };
-		BFBA64BD22926D9A00737252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBA64BB22926D9A00737252 /* LaunchScreen.storyboard */; };
-		BFBA64C522926E4E00737252 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA64C422926E4E00737252 /* ListViewController.swift */; };
-		BFBA64C72292734A00737252 /* MovieV0.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA64C62292734A00737252 /* MovieV0.swift */; };
+		BFC2B99A2297F24C005DE422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC2B9992297F24C005DE422 /* AppDelegate.swift */; };
+		BFC2B99F2297F24C005DE422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC2B99D2297F24C005DE422 /* Main.storyboard */; };
+		BFC2B9A12297F24D005DE422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC2B9A02297F24D005DE422 /* Assets.xcassets */; };
+		BFC2B9A42297F24D005DE422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC2B9A22297F24D005DE422 /* LaunchScreen.storyboard */; };
+		BFC2B9AC2297F2B7005DE422 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC2B9AB2297F2B7005DE422 /* ListViewController.swift */; };
+		BFC2B9AE2297F38F005DE422 /* MovieVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC2B9AD2297F38F005DE422 /* MovieVO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BF5BFEB32293E4AD00345587 /* MoiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoiveCell.swift; sourceTree = "<group>"; };
-		BF5BFEB62293E8DC00345587 /* secret.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = secret.jpg; sourceTree = "<group>"; };
-		BF5BFEB72293E8DC00345587 /* darknight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darknight.jpg; sourceTree = "<group>"; };
-		BF5BFEB82293E8DC00345587 /* rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain.jpg; sourceTree = "<group>"; };
-		BFBA64AF22926D9900737252 /* MyMovieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMovieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFBA64B222926D9A00737252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFBA64B422926D9A00737252 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BFBA64B722926D9A00737252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BFBA64B922926D9A00737252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BFBA64BC22926D9A00737252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BFBA64BE22926D9A00737252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFBA64C422926E4E00737252 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		BFBA64C62292734A00737252 /* MovieV0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieV0.swift; sourceTree = "<group>"; };
+		BFC2B9962297F24C005DE422 /* MyMovieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMovieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC2B9992297F24C005DE422 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFC2B99E2297F24C005DE422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFC2B9A02297F24D005DE422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFC2B9A32297F24D005DE422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFC2B9A52297F24D005DE422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC2B9AB2297F2B7005DE422 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		BFC2B9AD2297F38F005DE422 /* MovieVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BFBA64AC22926D9900737252 /* Frameworks */ = {
+		BFC2B9932297F24C005DE422 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,45 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BF5BFEB52293E81D00345587 /* Resources */ = {
+		BFC2B98D2297F24C005DE422 = {
 			isa = PBXGroup;
 			children = (
-				BF5BFEB72293E8DC00345587 /* darknight.jpg */,
-				BF5BFEB82293E8DC00345587 /* rain.jpg */,
-				BF5BFEB62293E8DC00345587 /* secret.jpg */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		BFBA64A622926D9900737252 = {
-			isa = PBXGroup;
-			children = (
-				BF5BFEB52293E81D00345587 /* Resources */,
-				BFBA64B122926D9900737252 /* MyMovieChart */,
-				BFBA64B022926D9900737252 /* Products */,
+				BFC2B9982297F24C005DE422 /* MyMovieChart */,
+				BFC2B9972297F24C005DE422 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BFBA64B022926D9900737252 /* Products */ = {
+		BFC2B9972297F24C005DE422 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFBA64AF22926D9900737252 /* MyMovieChart.app */,
+				BFC2B9962297F24C005DE422 /* MyMovieChart.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BFBA64B122926D9900737252 /* MyMovieChart */ = {
+		BFC2B9982297F24C005DE422 /* MyMovieChart */ = {
 			isa = PBXGroup;
 			children = (
-				BFBA64C62292734A00737252 /* MovieV0.swift */,
-				BFBA64B222926D9A00737252 /* AppDelegate.swift */,
-				BFBA64B422926D9A00737252 /* ViewController.swift */,
-				BF5BFEB32293E4AD00345587 /* MoiveCell.swift */,
-				BFBA64B622926D9A00737252 /* Main.storyboard */,
-				BFBA64C422926E4E00737252 /* ListViewController.swift */,
-				BFBA64B922926D9A00737252 /* Assets.xcassets */,
-				BFBA64BB22926D9A00737252 /* LaunchScreen.storyboard */,
-				BFBA64BE22926D9A00737252 /* Info.plist */,
+				BFC2B99D2297F24C005DE422 /* Main.storyboard */,
+				BFC2B9992297F24C005DE422 /* AppDelegate.swift */,
+				BFC2B9AB2297F2B7005DE422 /* ListViewController.swift */,
+				BFC2B9AD2297F38F005DE422 /* MovieVO.swift */,
+				BFC2B9A02297F24D005DE422 /* Assets.xcassets */,
+				BFC2B9A22297F24D005DE422 /* LaunchScreen.storyboard */,
+				BFC2B9A52297F24D005DE422 /* Info.plist */,
 			);
 			path = MyMovieChart;
 			sourceTree = "<group>";
@@ -93,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BFBA64AE22926D9900737252 /* MyMovieChart */ = {
+		BFC2B9952297F24C005DE422 /* MyMovieChart */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFBA64C122926D9A00737252 /* Build configuration list for PBXNativeTarget "MyMovieChart" */;
+			buildConfigurationList = BFC2B9A82297F24D005DE422 /* Build configuration list for PBXNativeTarget "MyMovieChart" */;
 			buildPhases = (
-				BFBA64AB22926D9900737252 /* Sources */,
-				BFBA64AC22926D9900737252 /* Frameworks */,
-				BFBA64AD22926D9900737252 /* Resources */,
+				BFC2B9922297F24C005DE422 /* Sources */,
+				BFC2B9932297F24C005DE422 /* Frameworks */,
+				BFC2B9942297F24C005DE422 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -107,25 +84,25 @@
 			);
 			name = MyMovieChart;
 			productName = MyMovieChart;
-			productReference = BFBA64AF22926D9900737252 /* MyMovieChart.app */;
+			productReference = BFC2B9962297F24C005DE422 /* MyMovieChart.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BFBA64A722926D9900737252 /* Project object */ = {
+		BFC2B98E2297F24C005DE422 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = sogih;
 				TargetAttributes = {
-					BFBA64AE22926D9900737252 = {
+					BFC2B9952297F24C005DE422 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = BFBA64AA22926D9900737252 /* Build configuration list for PBXProject "MyMovieChart" */;
+			buildConfigurationList = BFC2B9912297F24C005DE422 /* Build configuration list for PBXProject "MyMovieChart" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -133,60 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = BFBA64A622926D9900737252;
-			productRefGroup = BFBA64B022926D9900737252 /* Products */;
+			mainGroup = BFC2B98D2297F24C005DE422;
+			productRefGroup = BFC2B9972297F24C005DE422 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFBA64AE22926D9900737252 /* MyMovieChart */,
+				BFC2B9952297F24C005DE422 /* MyMovieChart */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BFBA64AD22926D9900737252 /* Resources */ = {
+		BFC2B9942297F24C005DE422 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFBA64BD22926D9A00737252 /* LaunchScreen.storyboard in Resources */,
-				BF5BFEBB2293E8DC00345587 /* rain.jpg in Resources */,
-				BFBA64BA22926D9A00737252 /* Assets.xcassets in Resources */,
-				BFBA64B822926D9A00737252 /* Main.storyboard in Resources */,
-				BF5BFEB92293E8DC00345587 /* secret.jpg in Resources */,
-				BF5BFEBA2293E8DC00345587 /* darknight.jpg in Resources */,
+				BFC2B9A42297F24D005DE422 /* LaunchScreen.storyboard in Resources */,
+				BFC2B9A12297F24D005DE422 /* Assets.xcassets in Resources */,
+				BFC2B99F2297F24C005DE422 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BFBA64AB22926D9900737252 /* Sources */ = {
+		BFC2B9922297F24C005DE422 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFBA64B522926D9A00737252 /* ViewController.swift in Sources */,
-				BFBA64C72292734A00737252 /* MovieV0.swift in Sources */,
-				BFBA64B322926D9A00737252 /* AppDelegate.swift in Sources */,
-				BFBA64C522926E4E00737252 /* ListViewController.swift in Sources */,
-				BF5BFEB42293E4AD00345587 /* MoiveCell.swift in Sources */,
+				BFC2B9AE2297F38F005DE422 /* MovieVO.swift in Sources */,
+				BFC2B99A2297F24C005DE422 /* AppDelegate.swift in Sources */,
+				BFC2B9AC2297F2B7005DE422 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BFBA64B622926D9A00737252 /* Main.storyboard */ = {
+		BFC2B99D2297F24C005DE422 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BFBA64B722926D9A00737252 /* Base */,
+				BFC2B99E2297F24C005DE422 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BFBA64BB22926D9A00737252 /* LaunchScreen.storyboard */ = {
+		BFC2B9A22297F24D005DE422 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BFBA64BC22926D9A00737252 /* Base */,
+				BFC2B9A32297F24D005DE422 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -194,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BFBA64BF22926D9A00737252 /* Debug */ = {
+		BFC2B9A62297F24D005DE422 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		BFBA64C022926D9A00737252 /* Release */ = {
+		BFC2B9A72297F24D005DE422 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -310,7 +282,7 @@
 			};
 			name = Release;
 		};
-		BFBA64C222926D9A00737252 /* Debug */ = {
+		BFC2B9A92297F24D005DE422 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -323,11 +295,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sogih.MyMovieChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BFBA64C322926D9A00737252 /* Release */ = {
+		BFC2B9AA2297F24D005DE422 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -340,32 +312,32 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sogih.MyMovieChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BFBA64AA22926D9900737252 /* Build configuration list for PBXProject "MyMovieChart" */ = {
+		BFC2B9912297F24C005DE422 /* Build configuration list for PBXProject "MyMovieChart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFBA64BF22926D9A00737252 /* Debug */,
-				BFBA64C022926D9A00737252 /* Release */,
+				BFC2B9A62297F24D005DE422 /* Debug */,
+				BFC2B9A72297F24D005DE422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFBA64C122926D9A00737252 /* Build configuration list for PBXNativeTarget "MyMovieChart" */ = {
+		BFC2B9A82297F24D005DE422 /* Build configuration list for PBXNativeTarget "MyMovieChart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFBA64C222926D9A00737252 /* Debug */,
-				BFBA64C322926D9A00737252 /* Release */,
+				BFC2B9A92297F24D005DE422 /* Debug */,
+				BFC2B9AA2297F24D005DE422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BFBA64A722926D9900737252 /* Project object */;
+	rootObject = BFC2B98E2297F24C005DE422 /* Project object */;
 }

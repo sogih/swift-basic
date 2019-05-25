@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MyMovieChart
 //
-//  Created by sogih on 20/05/2019.
+//  Created by sogih on 24/05/2019.
 //  Copyright © 2019 sogih. All rights reserved.
 //
 

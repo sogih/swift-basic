@@ -1,32 +1,25 @@
 import UIKit
 
-class ListViewController: UITableViewController {
+class ViewController: UITableViewController {
 
-    var list = [MovieVO]()
+    var dataset = [
+        ("다크나이트", "영웅들에 철학에 음악까지 더해져 예술이 되다.", "2008-09-04", 8.95),
+        ("호우시절", "때를 알고 내리는 좋은 비", "2009-10-08", 7.31),
+        ("말할 수 없는 비밀", "여기서 너까지 다섯 걸음", "2015-05-07", 9.19)
+    ]
     
-    override func viewDidLoad() {
-        
-        var mvo = MovieVO()
-        mvo.title = "U ri Sunhi"
-        mvo.description = "A young woman returning to her old school to visit her professor also runs into her old boyfriend and her senior, each of whom has a past with her."
-        mvo.opendate = "2013"
-        mvo.rating = 6.8
-        self.list.append(mvo)
-        
-        mvo = MovieVO()
-        mvo.title = "Hahaha"
-        mvo.description = "Two friends, while having drinks together, share their memories of visiting the seaside resort of Tongyeong."
-        mvo.opendate = "2010"
-        mvo.rating = 6.7
-        self.list.append(mvo)
-        
-        mvo = MovieVO()
-        mvo.title = "The Day He Arrives"
-        mvo.description = "A professor in the film department at a provincial university goes to Seoul to meet his senior, who works as a film critic, and stays in a northern Seoul village for three days."
-        mvo.opendate = "2011"
-        mvo.rating = 7.0
-        self.list.append(mvo)
-    }
+    lazy var list: [MovieVO] = {
+        var datalist = [MovieVO]()  // array
+        for (title, desc, opendate, rating) in self.dataset {
+            let mvo = MovieVO()
+            mvo.title = title
+            mvo.description = desc
+            mvo.opendate = opendate
+            mvo.rating = rating
+            datalist.append(mvo)
+        }
+        return datalist
+    }()
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.list.count
@@ -34,14 +27,12 @@ class ListViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let row = self.list[indexPath.row]
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ListCell")!
-        cell.textLabel?.text = row.title
-        cell.detailTextLabel?.text = row.description
-        return cell
+        let cell = tableView.dequeueReusableCell(withIdentifier: <#T##String#>)
     }
     
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print(indexPath.row)
+    override func viewDidLoad() {
+        super.viewDidLoad()
     }
-    
+
 }
+

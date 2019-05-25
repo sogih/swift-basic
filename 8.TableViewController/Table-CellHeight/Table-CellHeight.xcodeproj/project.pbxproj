@@ -7,35 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF1ED59522992F2F00DB9075 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1ED59422992F2F00DB9075 /* AppDelegate.swift */; };
-		BF1ED59A22992F2F00DB9075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1ED59822992F2F00DB9075 /* Main.storyboard */; };
-		BF1ED59C22992F2F00DB9075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1ED59B22992F2F00DB9075 /* Assets.xcassets */; };
-		BF1ED59F22992F2F00DB9075 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1ED59D22992F2F00DB9075 /* LaunchScreen.storyboard */; };
-		BF1ED5A722992FCB00DB9075 /* MovieVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1ED5A622992FCB00DB9075 /* MovieVO.swift */; };
-		BFF00DD722993284000FFF2C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF00DD622993284000FFF2C /* ListViewController.swift */; };
-		BFF00DD9229933B5000FFF2C /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF00DD8229933B5000FFF2C /* MovieCell.swift */; };
-		BFF00DDE22993521000FFF2C /* darknight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFF00DDB22993521000FFF2C /* darknight.jpg */; };
-		BFF00DDF22993521000FFF2C /* rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFF00DDC22993521000FFF2C /* rain.jpg */; };
-		BFF00DE022993521000FFF2C /* secret.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFF00DDD22993521000FFF2C /* secret.jpg */; };
+		BFF00DEE2299389C000FFF2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF00DED2299389C000FFF2C /* AppDelegate.swift */; };
+		BFF00DF32299389C000FFF2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF00DF12299389C000FFF2C /* Main.storyboard */; };
+		BFF00DF52299389D000FFF2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF00DF42299389D000FFF2C /* Assets.xcassets */; };
+		BFF00DF82299389D000FFF2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF00DF62299389D000FFF2C /* LaunchScreen.storyboard */; };
+		BFF00E0022993B69000FFF2C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF00DFF22993B69000FFF2C /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BF1ED59122992F2F00DB9075 /* MyMovieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMovieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF1ED59422992F2F00DB9075 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF1ED59922992F2F00DB9075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BF1ED59B22992F2F00DB9075 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BF1ED59E22992F2F00DB9075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BF1ED5A022992F2F00DB9075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF1ED5A622992FCB00DB9075 /* MovieVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVO.swift; sourceTree = "<group>"; };
-		BFF00DD622993284000FFF2C /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListViewController.swift; path = ../ListViewController.swift; sourceTree = "<group>"; };
-		BFF00DD8229933B5000FFF2C /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
-		BFF00DDB22993521000FFF2C /* darknight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darknight.jpg; sourceTree = "<group>"; };
-		BFF00DDC22993521000FFF2C /* rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain.jpg; sourceTree = "<group>"; };
-		BFF00DDD22993521000FFF2C /* secret.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = secret.jpg; sourceTree = "<group>"; };
+		BFF00DEA2299389C000FFF2C /* Table-CellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table-CellHeight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF00DED2299389C000FFF2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFF00DF22299389C000FFF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFF00DF42299389D000FFF2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFF00DF72299389D000FFF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFF00DF92299389D000FFF2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF00DFF22993B69000FFF2C /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BF1ED58E22992F2F00DB9075 /* Frameworks */ = {
+		BFF00DE72299389C000FFF2C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,84 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BF1ED58822992F2F00DB9075 = {
+		BFF00DE12299389C000FFF2C = {
 			isa = PBXGroup;
 			children = (
-				BFF00DDA229934F6000FFF2C /* Resources */,
-				BF1ED59322992F2F00DB9075 /* MyMovieChart */,
-				BF1ED59222992F2F00DB9075 /* Products */,
+				BFF00DEC2299389C000FFF2C /* Table-CellHeight */,
+				BFF00DEB2299389C000FFF2C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BF1ED59222992F2F00DB9075 /* Products */ = {
+		BFF00DEB2299389C000FFF2C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF1ED59122992F2F00DB9075 /* MyMovieChart.app */,
+				BFF00DEA2299389C000FFF2C /* Table-CellHeight.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF1ED59322992F2F00DB9075 /* MyMovieChart */ = {
+		BFF00DEC2299389C000FFF2C /* Table-CellHeight */ = {
 			isa = PBXGroup;
 			children = (
-				BF1ED59422992F2F00DB9075 /* AppDelegate.swift */,
-				BFF00DD622993284000FFF2C /* ListViewController.swift */,
-				BF1ED5A622992FCB00DB9075 /* MovieVO.swift */,
-				BFF00DD8229933B5000FFF2C /* MovieCell.swift */,
-				BF1ED59822992F2F00DB9075 /* Main.storyboard */,
-				BF1ED59B22992F2F00DB9075 /* Assets.xcassets */,
-				BF1ED59D22992F2F00DB9075 /* LaunchScreen.storyboard */,
-				BF1ED5A022992F2F00DB9075 /* Info.plist */,
+				BFF00DED2299389C000FFF2C /* AppDelegate.swift */,
+				BFF00DFF22993B69000FFF2C /* ListViewController.swift */,
+				BFF00DF12299389C000FFF2C /* Main.storyboard */,
+				BFF00DF42299389D000FFF2C /* Assets.xcassets */,
+				BFF00DF62299389D000FFF2C /* LaunchScreen.storyboard */,
+				BFF00DF92299389D000FFF2C /* Info.plist */,
 			);
-			path = MyMovieChart;
-			sourceTree = "<group>";
-		};
-		BFF00DDA229934F6000FFF2C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				BFF00DDB22993521000FFF2C /* darknight.jpg */,
-				BFF00DDC22993521000FFF2C /* rain.jpg */,
-				BFF00DDD22993521000FFF2C /* secret.jpg */,
-			);
-			path = Resources;
+			path = "Table-CellHeight";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF1ED59022992F2F00DB9075 /* MyMovieChart */ = {
+		BFF00DE92299389C000FFF2C /* Table-CellHeight */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF1ED5A322992F2F00DB9075 /* Build configuration list for PBXNativeTarget "MyMovieChart" */;
+			buildConfigurationList = BFF00DFC2299389D000FFF2C /* Build configuration list for PBXNativeTarget "Table-CellHeight" */;
 			buildPhases = (
-				BF1ED58D22992F2F00DB9075 /* Sources */,
-				BF1ED58E22992F2F00DB9075 /* Frameworks */,
-				BF1ED58F22992F2F00DB9075 /* Resources */,
+				BFF00DE62299389C000FFF2C /* Sources */,
+				BFF00DE72299389C000FFF2C /* Frameworks */,
+				BFF00DE82299389C000FFF2C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MyMovieChart;
-			productName = MyMovieChart;
-			productReference = BF1ED59122992F2F00DB9075 /* MyMovieChart.app */;
+			name = "Table-CellHeight";
+			productName = "Table-CellHeight";
+			productReference = BFF00DEA2299389C000FFF2C /* Table-CellHeight.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BF1ED58922992F2F00DB9075 /* Project object */ = {
+		BFF00DE22299389C000FFF2C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = sogih;
 				TargetAttributes = {
-					BF1ED59022992F2F00DB9075 = {
+					BFF00DE92299389C000FFF2C = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = BF1ED58C22992F2F00DB9075 /* Build configuration list for PBXProject "MyMovieChart" */;
+			buildConfigurationList = BFF00DE52299389C000FFF2C /* Build configuration list for PBXProject "Table-CellHeight" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,59 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = BF1ED58822992F2F00DB9075;
-			productRefGroup = BF1ED59222992F2F00DB9075 /* Products */;
+			mainGroup = BFF00DE12299389C000FFF2C;
+			productRefGroup = BFF00DEB2299389C000FFF2C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF1ED59022992F2F00DB9075 /* MyMovieChart */,
+				BFF00DE92299389C000FFF2C /* Table-CellHeight */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BF1ED58F22992F2F00DB9075 /* Resources */ = {
+		BFF00DE82299389C000FFF2C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFF00DDE22993521000FFF2C /* darknight.jpg in Resources */,
-				BFF00DE022993521000FFF2C /* secret.jpg in Resources */,
-				BFF00DDF22993521000FFF2C /* rain.jpg in Resources */,
-				BF1ED59F22992F2F00DB9075 /* LaunchScreen.storyboard in Resources */,
-				BF1ED59C22992F2F00DB9075 /* Assets.xcassets in Resources */,
-				BF1ED59A22992F2F00DB9075 /* Main.storyboard in Resources */,
+				BFF00DF82299389D000FFF2C /* LaunchScreen.storyboard in Resources */,
+				BFF00DF52299389D000FFF2C /* Assets.xcassets in Resources */,
+				BFF00DF32299389C000FFF2C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BF1ED58D22992F2F00DB9075 /* Sources */ = {
+		BFF00DE62299389C000FFF2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF1ED5A722992FCB00DB9075 /* MovieVO.swift in Sources */,
-				BF1ED59522992F2F00DB9075 /* AppDelegate.swift in Sources */,
-				BFF00DD9229933B5000FFF2C /* MovieCell.swift in Sources */,
-				BFF00DD722993284000FFF2C /* ListViewController.swift in Sources */,
+				BFF00E0022993B69000FFF2C /* ListViewController.swift in Sources */,
+				BFF00DEE2299389C000FFF2C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BF1ED59822992F2F00DB9075 /* Main.storyboard */ = {
+		BFF00DF12299389C000FFF2C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BF1ED59922992F2F00DB9075 /* Base */,
+				BFF00DF22299389C000FFF2C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BF1ED59D22992F2F00DB9075 /* LaunchScreen.storyboard */ = {
+		BFF00DF62299389D000FFF2C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BF1ED59E22992F2F00DB9075 /* Base */,
+				BFF00DF72299389D000FFF2C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -190,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BF1ED5A122992F2F00DB9075 /* Debug */ = {
+		BFF00DFA2299389D000FFF2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -251,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		BF1ED5A222992F2F00DB9075 /* Release */ = {
+		BFF00DFB2299389D000FFF2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -306,62 +278,62 @@
 			};
 			name = Release;
 		};
-		BF1ED5A422992F2F00DB9075 /* Debug */ = {
+		BFF00DFD2299389D000FFF2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MyMovieChart/Info.plist;
+				INFOPLIST_FILE = "Table-CellHeight/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sogih.MyMovieChart;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sogih.Table-CellHeight";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		BF1ED5A522992F2F00DB9075 /* Release */ = {
+		BFF00DFE2299389D000FFF2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MyMovieChart/Info.plist;
+				INFOPLIST_FILE = "Table-CellHeight/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sogih.MyMovieChart;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sogih.Table-CellHeight";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF1ED58C22992F2F00DB9075 /* Build configuration list for PBXProject "MyMovieChart" */ = {
+		BFF00DE52299389C000FFF2C /* Build configuration list for PBXProject "Table-CellHeight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF1ED5A122992F2F00DB9075 /* Debug */,
-				BF1ED5A222992F2F00DB9075 /* Release */,
+				BFF00DFA2299389D000FFF2C /* Debug */,
+				BFF00DFB2299389D000FFF2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF1ED5A322992F2F00DB9075 /* Build configuration list for PBXNativeTarget "MyMovieChart" */ = {
+		BFF00DFC2299389D000FFF2C /* Build configuration list for PBXNativeTarget "Table-CellHeight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF1ED5A422992F2F00DB9075 /* Debug */,
-				BF1ED5A522992F2F00DB9075 /* Release */,
+				BFF00DFD2299389D000FFF2C /* Debug */,
+				BFF00DFE2299389D000FFF2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BF1ED58922992F2F00DB9075 /* Project object */;
+	rootObject = BFF00DE22299389C000FFF2C /* Project object */;
 }

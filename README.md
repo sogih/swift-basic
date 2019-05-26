@@ -101,9 +101,9 @@ CHAPTER 07 델리게이트 패턴 \
 8.5.1 tableView(_:estimatedHeightForRowAt:) \
 \
 CHAPTER 09 네트워크 통신과 API \
-9.1 네트워크 통신의 종류 \
+[9.1 네트워크 통신의 종류 \
 9.1.1 소켓 방식의 연결 지향 통신 \
-9.1.2 비연결 지향 통신 \
+9.1.2 비연결 지향 통신](https://www.notion.so/16fee4eadc12474f95ed1df9dd35a7e9) \
 9.2 오픈 API와 공공 콘텐츠 \
 9.2.1 오픈 API \
 9.2.2 영화 정보 제공 서비스 \

@@ -2,6 +2,20 @@ import UIKit
 
 class ListViewController: UITableViewController {
     
+    func getThumbnailImage(_ index: Int) -> UIImage {
+        let mvo = self.list[index]
+        
+        if let savedImage = mvo.thumbnailImage {
+            return savedImage
+        } else {
+            let url: URL! = URL(string: mvo.thumbnail!)
+            let imageData = try! Data(contentsOf: url)
+            mvo.thumbnailImage = UIImage(data: imageData)
+            
+            return mvo.thumbnailImage!
+        }
+    }
+    
     // 현재까지 읽어온 페이지 정보
     var page = 1
 
@@ -32,6 +46,8 @@ class ListViewController: UITableViewController {
         // 주어진 행에 맞는 데이터 소스를 읽어온다
         let row = self.list[indexPath.row]
         
+        NSLog("제목: \(row.title!), 호출된 행번호: \(indexPath.row)")
+        
         // as! UITableViewCell => as! MovieCell 로 캐스팅 타입 변경
         let cell = tableView.dequeueReusableCell(withIdentifier: "ListCell") as! MovieCell
         
@@ -41,14 +57,10 @@ class ListViewController: UITableViewController {
         cell.opendate?.text = row.opendate
         cell.rating?.text = "\(row.rating!)"
         
-        // 섬네일 경로를 인자값으로 하는 URL 객체를 생성
-        let url: URL! = URL(string: row.thumbnail!)
-        
-        // 이미지를 읽어와 Data 객체에 저장
-        let imageData = try! Data(contentsOf: url)
-        
         // UIImage 객체를 생성하여 아울렛 변수의 image 속성에 대입
-        cell.thumbnail?.image = UIImage(data:imageData)
+        DispatchQueue.main.async(execute: {
+            cell.thumbnail.image = self.getThumbnailImage(indexPath.row)
+        })
         
         
         return cell
@@ -62,7 +74,7 @@ class ListViewController: UITableViewController {
     // 영화 차트 api를 호출해주는 메소드
     func callMovieAPI() {
         // 1. 호핀 api 호출을 위한 uri 생성
-        let url = "http://swiftapi.rubypaper.co.kr:2029/hoppin/movies?version=1&page=1&count=10&genreId=&order=releasedateasc"
+        let url = "http://swiftapi.rubypaper.co.kr:2029/hoppin/movies?version=1&page=\(page)&count=10&genreId=&order=releasedateasc"
         let apiURI : URL! = URL(string: url)
         
         // 2. rest api 호출
@@ -91,6 +103,11 @@ class ListViewController: UITableViewController {
                 mvo.thumbnail = r["thumbnailImage"] as? String
                 mvo.detail = r["linkUrl"] as? String
                 mvo.rating = ((r["ratingAverage"] as! NSString).doubleValue)
+                
+                let url: URL! = URL(string: mvo.thumbnail!)
+                let imageData = try! Data(contentsOf: url)
+                mvo.thumbnailImage = UIImage(data:imageData)
+                
                 
                 // list 배열에 추가
                 self.list.append(mvo)

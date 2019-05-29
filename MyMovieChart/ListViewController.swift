@@ -21,10 +21,7 @@ class ListViewController: UITableViewController {
 
 
     // 테이블 뷰를 구성할 리스트 데이터
-    lazy var list: [MovieVO] = {
-        var datalist = [MovieVO]()
-        return datalist
-    }()
+    lazy var list: [MovieVO] = { var datalist = [MovieVO]() retumrn datalist }()
     
     @IBOutlet var moreBtn: UIButton!
     

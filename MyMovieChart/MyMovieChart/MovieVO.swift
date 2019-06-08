@@ -1,7 +1,7 @@
 import Foundation
 import UIKit
 
-class MovieVO {
+class    {
     var thumbnail: String?  // 썸네일 이미지 주소
     var title: String?
     var description: String?
